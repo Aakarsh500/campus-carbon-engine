@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrainCircuit, CloudLightning, Wind, TestTube, Server, Lightbulb, Sun, Download, Calculator } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { BrainCircuit, CloudLightning, Wind, TestTube, Server, Lightbulb, Sun, Download, Calculator, Loader2 } from 'lucide-react';
 import { ComposedChart, Line, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import DenseDataList, { DataListItem } from './DenseDataList';
 import prpForecastData from '../prp_ai_forecast.json';
@@ -16,28 +16,83 @@ const prpItems: DataListItem[] = [
   { id: '4', category: 'Lighting & Plugs', icon: Lightbulb, kwh: 1500, percentage: 8, progressBarColor: 'bg-slate-400', iconColor: 'text-slate-300' },
 ];
 
+// ===============================================================
+// AWS CLOUD INTEGRATION ENDPOINTS
+// Paste your S3 and API Gateway URLs here to activate the cloud
+// ===============================================================
+const AWS_S3_DATA_LAKE_URL = ""; 
+const AWS_API_GATEWAY_URL = ""; 
+
 export default function PRPView({ months, isEcoMode }: PRPViewProps) {
   const [weatherSizzling, setWeatherSizzling] = useState(false);
   const [showMath, setShowMath] = useState(false);
+  
+  // AWS Integration States
+  const [isAwsFetching, setIsAwsFetching] = useState(false);
+  const [cloudData, setCloudData] = useState<any[]>(prpForecastData);
+  const [cloudMultiplier, setCloudMultiplier] = useState(1.15);
+
+  // Phase 1: Amazon S3 Data Lake Fetch
+  useEffect(() => {
+    async function fetchS3DataLake() {
+      if (!AWS_S3_DATA_LAKE_URL) return; // Empty string means use local data
+      try {
+        setIsAwsFetching(true);
+        const res = await fetch(AWS_S3_DATA_LAKE_URL);
+        const data = await res.json();
+        if (data.length > 0) setCloudData(data);
+      } catch (err) {
+        console.error("AWS S3 Fetch failed. Falling back to local Jamstack JSON.", err);
+      } finally {
+        setIsAwsFetching(false);
+      }
+    }
+    fetchS3DataLake();
+  }, [months]);
+
+  // Phase 2: AWS Lambda Microservice Trigger
+  const triggerLambdaCompute = async () => {
+    const nextState = !weatherSizzling;
+    setWeatherSizzling(nextState);
+    
+    if (nextState && AWS_API_GATEWAY_URL) {
+      try {
+        setIsAwsFetching(true);
+        const res = await fetch(AWS_API_GATEWAY_URL, {
+          method: 'POST',
+          body: JSON.stringify({ custom_heat_index: 40 })
+        });
+        const data = await res.json();
+        if (data.weather_scalar) {
+           setCloudMultiplier(data.weather_scalar); // Use real AWS computed multiplier
+        }
+      } catch (err) {
+        console.error("AWS API Gateway failed out. Falling back to local Edge UI compute.", err);
+        setCloudMultiplier(1.15);
+      } finally {
+        setIsAwsFetching(false);
+      }
+    } else if (nextState) {
+        setCloudMultiplier(1.15); // Fallback math without AWS
+    }
+  };
 
   // 1. Get today's exact date dynamically
   const today = new Date();
 
-  // 2. Map the data
-  const activePrpData = prpForecastData.slice(0, months * 30).map((day, index) => {
+  // 2. Map the dataset dynamically
+  const activePrpData = cloudData.slice(0, months * 30).map((day, index) => {
     const futureDate = new Date(today);
     futureDate.setDate(today.getDate() + index);
     const formattedDate = futureDate.toISOString().split('T')[0];
 
-    // Weather impact modifier (e.g. +15% if sunny)
-    // EcoMode impact modifier (-40% if eco)
     let predicted = day.predicted_kWh;
     let [low, high] = [day.confidence_low, day.confidence_high];
 
     if (weatherSizzling) {
-      predicted *= 1.15;
-      low *= 1.15;
-      high *= 1.15;
+      predicted *= cloudMultiplier;
+      low *= cloudMultiplier;
+      high *= cloudMultiplier;
     }
 
     if (isEcoMode) {
@@ -75,10 +130,12 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
       {/* Weather & Export Controls */}
       <div className="flex gap-2 mb-6">
         <button 
-          onClick={() => setWeatherSizzling(!weatherSizzling)}
-          className={`flex-1 flex justify-center items-center gap-2 py-3 rounded-xl font-bold transition-colors ${weatherSizzling ? 'bg-amber-100 text-amber-700 border border-amber-300' : 'bg-slate-100 text-slate-600 border border-slate-200 hover:bg-slate-200'}`}
+          onClick={triggerLambdaCompute}
+          disabled={isAwsFetching}
+          className={`flex-1 flex justify-center items-center gap-2 py-3 rounded-xl font-bold transition-colors ${weatherSizzling ? 'bg-amber-100 text-amber-700 border border-amber-300' : 'bg-slate-100 text-slate-600 border border-slate-200 hover:bg-slate-200'} ${isAwsFetching ? 'opacity-50 cursor-not-allowed' : ''}`}
         >
-          <Sun className="w-5 h-5" /> {weatherSizzling ? "Extreme Heat Engaged" : "Simulate Weather: Hot"}
+          {isAwsFetching ? <Loader2 className="w-5 h-5 animate-spin" /> : <Sun className="w-5 h-5" />}
+          {isAwsFetching ? "AWS Compute..." : (weatherSizzling ? "Extreme Heat Engaged" : "Simulate Weather: Hot")}
         </button>
         <button 
           onClick={downloadCSV}
@@ -90,7 +147,10 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
 
       <div className="bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 p-6 rounded-3xl shadow-sm mb-6">
         <BrainCircuit className="w-8 h-8 text-purple-600 mb-3" />
-        <p className="text-sm font-bold text-purple-800 uppercase tracking-widest mb-1">AI Forecast Analysis</p>
+        <div className="flex justify-between items-center mb-1">
+           <p className="text-sm font-bold text-purple-800 uppercase tracking-widest">AI Forecast Analysis</p>
+           {isAwsFetching && <span className="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded-full font-bold animate-pulse">Fetching from AWS S3...</span>}
+        </div>
         <p className="text-slate-700 text-sm font-medium mb-4">
           Hardware data is unavailable. Predictions are generated using Meta Prophet time-series forecasting, mapped from ASHRAE Site 0.
         </p>
