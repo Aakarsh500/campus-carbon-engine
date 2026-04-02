@@ -20,13 +20,13 @@ const prpItems: DataListItem[] = [
 // AWS CLOUD INTEGRATION ENDPOINTS
 // Paste your S3 and API Gateway URLs here to activate the cloud
 // ===============================================================
-const AWS_S3_DATA_LAKE_URL = ""; 
-const AWS_API_GATEWAY_URL = ""; 
+const AWS_S3_DATA_LAKE_URL = "https://campus-carbon-data-aakarsh.s3.eu-north-1.amazonaws.com/prp_ai_forecast.json";
+const AWS_API_GATEWAY_URL = "https://utd8va71wi.execute-api.eu-north-1.amazonaws.com/default/CampusForecastInference";
 
 export default function PRPView({ months, isEcoMode }: PRPViewProps) {
   const [weatherSizzling, setWeatherSizzling] = useState(false);
   const [showMath, setShowMath] = useState(false);
-  
+
   // AWS Integration States
   const [isAwsFetching, setIsAwsFetching] = useState(false);
   const [cloudData, setCloudData] = useState<any[]>(prpForecastData);
@@ -54,7 +54,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
   const triggerLambdaCompute = async () => {
     const nextState = !weatherSizzling;
     setWeatherSizzling(nextState);
-    
+
     if (nextState && AWS_API_GATEWAY_URL) {
       try {
         setIsAwsFetching(true);
@@ -64,7 +64,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
         });
         const data = await res.json();
         if (data.weather_scalar) {
-           setCloudMultiplier(data.weather_scalar); // Use real AWS computed multiplier
+          setCloudMultiplier(data.weather_scalar); // Use real AWS computed multiplier
         }
       } catch (err) {
         console.error("AWS API Gateway failed out. Falling back to local Edge UI compute.", err);
@@ -73,7 +73,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
         setIsAwsFetching(false);
       }
     } else if (nextState) {
-        setCloudMultiplier(1.15); // Fallback math without AWS
+      setCloudMultiplier(1.15); // Fallback math without AWS
     }
   };
 
@@ -104,7 +104,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
     return {
       date: formattedDate,
       predicted,
-      range: [low, high] 
+      range: [low, high]
     };
   });
 
@@ -129,7 +129,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
     <>
       {/* Weather & Export Controls */}
       <div className="flex gap-2 mb-6">
-        <button 
+        <button
           onClick={triggerLambdaCompute}
           disabled={isAwsFetching}
           className={`flex-1 flex justify-center items-center gap-2 py-3 rounded-xl font-bold transition-colors ${weatherSizzling ? 'bg-amber-100 text-amber-700 border border-amber-300' : 'bg-slate-100 text-slate-600 border border-slate-200 hover:bg-slate-200'} ${isAwsFetching ? 'opacity-50 cursor-not-allowed' : ''}`}
@@ -137,7 +137,7 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
           {isAwsFetching ? <Loader2 className="w-5 h-5 animate-spin" /> : <Sun className="w-5 h-5" />}
           {isAwsFetching ? "AWS Compute..." : (weatherSizzling ? "Extreme Heat Engaged" : "Simulate Weather: Hot")}
         </button>
-        <button 
+        <button
           onClick={downloadCSV}
           className="flex-1 flex justify-center items-center gap-2 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition-colors shadow-lg border border-slate-700"
         >
@@ -148,8 +148,8 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
       <div className="bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 p-6 rounded-3xl shadow-sm mb-6">
         <BrainCircuit className="w-8 h-8 text-purple-600 mb-3" />
         <div className="flex justify-between items-center mb-1">
-           <p className="text-sm font-bold text-purple-800 uppercase tracking-widest">AI Forecast Analysis</p>
-           {isAwsFetching && <span className="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded-full font-bold animate-pulse">Fetching from AWS S3...</span>}
+          <p className="text-sm font-bold text-purple-800 uppercase tracking-widest">AI Forecast Analysis</p>
+          {isAwsFetching && <span className="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded-full font-bold animate-pulse">Fetching from AWS S3...</span>}
         </div>
         <p className="text-slate-700 text-sm font-medium mb-4">
           Hardware data is unavailable. Predictions are generated using Meta Prophet time-series forecasting, mapped from ASHRAE Site 0.
@@ -170,39 +170,39 @@ export default function PRPView({ months, isEcoMode }: PRPViewProps) {
 
       {/* Math Inspector Panel */}
       <div className="mb-6 bg-slate-800 border border-slate-700 rounded-3xl overflow-hidden shadow-2xl">
-        <button 
-          onClick={() => setShowMath(!showMath)} 
+        <button
+          onClick={() => setShowMath(!showMath)}
           className="w-full p-4 flex justify-between items-center bg-slate-800 hover:bg-slate-700 transition-colors"
         >
           <div className="flex items-center gap-2 text-purple-400 font-bold">
-            <Calculator className="w-5 h-5" /> 
+            <Calculator className="w-5 h-5" />
             Algorithm Transparency: Meta Prophet ML
           </div>
           <span className="text-slate-400 text-sm font-medium">{showMath ? 'Hide Logic' : 'Inspect Logic'}</span>
         </button>
-        
+
         {showMath && (
           <div className="p-5 border-t border-slate-700 bg-slate-900 font-mono text-sm text-slate-300">
             <p className="mb-2 text-purple-400 font-bold">// Meta Prophet Forecasting Algorithm</p>
             <p className="mb-4 text-sm italic text-slate-400">
-              Time-series component decomposition using additive regression models.<br/>
+              Time-series component decomposition using additive regression models.<br />
               <span className="text-lg font-serif tracking-widest text-slate-300">y(t) = g(t) + s(t) + h(t) + ε<sub>t</sub></span>
             </p>
 
             <p className="mb-2 text-purple-400 font-bold">// Future Date Mapping</p>
             <p className="mb-4 pl-4 border-l-2 border-slate-700 text-slate-400 leading-relaxed font-semibold">
-              <span className="text-purple-300">t_current</span> = Date.now()<br/>
-              <span className="text-purple-300">forecast_array</span> = json_data.slice(<span className="text-amber-300">0</span>, months × <span className="text-amber-300">30</span>)<br/>
-              map(array) → t_current + index<br/>
+              <span className="text-purple-300">t_current</span> = Date.now()<br />
+              <span className="text-purple-300">forecast_array</span> = json_data.slice(<span className="text-amber-300">0</span>, months × <span className="text-amber-300">30</span>)<br />
+              map(array) → t_current + index<br />
             </p>
 
             <p className="mb-2 text-purple-400 font-bold">// Environmental Scalar Override</p>
             <p className="pl-4 border-l-2 border-slate-700 text-slate-400 leading-relaxed font-semibold">
-               <span className="text-pink-400">if</span> (weather_hot): <br/>
-               &nbsp;&nbsp;&nbsp;&nbsp;predicted_kwh = predicted_kwh × <span className="text-amber-300">1.15</span> <br/>
-               &nbsp;&nbsp;&nbsp;&nbsp;bounds = bounds × <span className="text-amber-300">1.15</span> <br/>
-               <span className="text-pink-400">if</span> (eco_mode): <br/>
-               &nbsp;&nbsp;&nbsp;&nbsp;predicted_kwh = predicted_kwh × <span className="text-amber-300">0.60</span> <br/>
+              <span className="text-pink-400">if</span> (weather_hot): <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;predicted_kwh = predicted_kwh × <span className="text-amber-300">1.15</span> <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;bounds = bounds × <span className="text-amber-300">1.15</span> <br />
+              <span className="text-pink-400">if</span> (eco_mode): <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;predicted_kwh = predicted_kwh × <span className="text-amber-300">0.60</span> <br />
             </p>
           </div>
         )}
