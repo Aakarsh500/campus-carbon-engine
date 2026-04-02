@@ -1,0 +1,2192 @@
+[
+    {
+        "date": "2017-01-01",
+        "predicted_kWh": 21472.24,
+        "confidence_low": 19367.77,
+        "confidence_high": 23619.23
+    },
+    {
+        "date": "2017-01-02",
+        "predicted_kWh": 23836.66,
+        "confidence_low": 21839.36,
+        "confidence_high": 25910.78
+    },
+    {
+        "date": "2017-01-03",
+        "predicted_kWh": 24601.85,
+        "confidence_low": 22360.21,
+        "confidence_high": 26720.71
+    },
+    {
+        "date": "2017-01-04",
+        "predicted_kWh": 25230.48,
+        "confidence_low": 23080.28,
+        "confidence_high": 27434.27
+    },
+    {
+        "date": "2017-01-05",
+        "predicted_kWh": 25940.41,
+        "confidence_low": 23873.27,
+        "confidence_high": 27912.83
+    },
+    {
+        "date": "2017-01-06",
+        "predicted_kWh": 26571.0,
+        "confidence_low": 24492.61,
+        "confidence_high": 28673.37
+    },
+    {
+        "date": "2017-01-07",
+        "predicted_kWh": 26430.78,
+        "confidence_low": 24385.75,
+        "confidence_high": 28534.98
+    },
+    {
+        "date": "2017-01-08",
+        "predicted_kWh": 27519.24,
+        "confidence_low": 25261.51,
+        "confidence_high": 29769.25
+    },
+    {
+        "date": "2017-01-09",
+        "predicted_kWh": 30334.42,
+        "confidence_low": 28207.18,
+        "confidence_high": 32486.38
+    },
+    {
+        "date": "2017-01-10",
+        "predicted_kWh": 31466.42,
+        "confidence_low": 29348.83,
+        "confidence_high": 33609.32
+    },
+    {
+        "date": "2017-01-11",
+        "predicted_kWh": 32364.09,
+        "confidence_low": 30295.72,
+        "confidence_high": 34641.5
+    },
+    {
+        "date": "2017-01-12",
+        "predicted_kWh": 33233.07,
+        "confidence_low": 31100.69,
+        "confidence_high": 35313.04
+    },
+    {
+        "date": "2017-01-13",
+        "predicted_kWh": 33902.51,
+        "confidence_low": 31828.37,
+        "confidence_high": 36097.0
+    },
+    {
+        "date": "2017-01-14",
+        "predicted_kWh": 33673.07,
+        "confidence_low": 31529.23,
+        "confidence_high": 35772.71
+    },
+    {
+        "date": "2017-01-15",
+        "predicted_kWh": 34539.06,
+        "confidence_low": 32418.25,
+        "confidence_high": 36508.01
+    },
+    {
+        "date": "2017-01-16",
+        "predicted_kWh": 36996.24,
+        "confidence_low": 34806.0,
+        "confidence_high": 39135.77
+    },
+    {
+        "date": "2017-01-17",
+        "predicted_kWh": 37635.6,
+        "confidence_low": 35548.54,
+        "confidence_high": 39811.88
+    },
+    {
+        "date": "2017-01-18",
+        "predicted_kWh": 37910.1,
+        "confidence_low": 35835.46,
+        "confidence_high": 39988.29
+    },
+    {
+        "date": "2017-01-19",
+        "predicted_kWh": 38032.78,
+        "confidence_low": 35973.73,
+        "confidence_high": 40105.7
+    },
+    {
+        "date": "2017-01-20",
+        "predicted_kWh": 37843.44,
+        "confidence_low": 35638.95,
+        "confidence_high": 39874.19
+    },
+    {
+        "date": "2017-01-21",
+        "predicted_kWh": 36656.52,
+        "confidence_low": 34676.89,
+        "confidence_high": 38731.35
+    },
+    {
+        "date": "2017-01-22",
+        "predicted_kWh": 36483.0,
+        "confidence_low": 34395.8,
+        "confidence_high": 38548.46
+    },
+    {
+        "date": "2017-01-23",
+        "predicted_kWh": 37837.96,
+        "confidence_low": 35813.95,
+        "confidence_high": 40020.66
+    },
+    {
+        "date": "2017-01-24",
+        "predicted_kWh": 37333.91,
+        "confidence_low": 35258.97,
+        "confidence_high": 39499.11
+    },
+    {
+        "date": "2017-01-25",
+        "predicted_kWh": 36447.16,
+        "confidence_low": 34345.61,
+        "confidence_high": 38484.61
+    },
+    {
+        "date": "2017-01-26",
+        "predicted_kWh": 35415.41,
+        "confidence_low": 33251.51,
+        "confidence_high": 37552.16
+    },
+    {
+        "date": "2017-01-27",
+        "predicted_kWh": 34103.82,
+        "confidence_low": 31801.63,
+        "confidence_high": 36374.59
+    },
+    {
+        "date": "2017-01-28",
+        "predicted_kWh": 31852.38,
+        "confidence_low": 29806.02,
+        "confidence_high": 34147.28
+    },
+    {
+        "date": "2017-01-29",
+        "predicted_kWh": 30697.17,
+        "confidence_low": 28618.16,
+        "confidence_high": 32719.9
+    },
+    {
+        "date": "2017-01-30",
+        "predicted_kWh": 31177.22,
+        "confidence_low": 29110.06,
+        "confidence_high": 33456.06
+    },
+    {
+        "date": "2017-01-31",
+        "predicted_kWh": 29927.37,
+        "confidence_low": 27825.3,
+        "confidence_high": 31983.74
+    },
+    {
+        "date": "2017-02-01",
+        "predicted_kWh": 28443.92,
+        "confidence_low": 26433.81,
+        "confidence_high": 30475.8
+    },
+    {
+        "date": "2017-02-02",
+        "predicted_kWh": 26981.72,
+        "confidence_low": 24995.01,
+        "confidence_high": 29194.3
+    },
+    {
+        "date": "2017-02-03",
+        "predicted_kWh": 25419.75,
+        "confidence_low": 23336.86,
+        "confidence_high": 27468.99
+    },
+    {
+        "date": "2017-02-04",
+        "predicted_kWh": 23108.04,
+        "confidence_low": 20872.67,
+        "confidence_high": 25294.65
+    },
+    {
+        "date": "2017-02-05",
+        "predicted_kWh": 22088.56,
+        "confidence_low": 20036.13,
+        "confidence_high": 24225.82
+    },
+    {
+        "date": "2017-02-06",
+        "predicted_kWh": 22901.89,
+        "confidence_low": 20704.18,
+        "confidence_high": 25098.08
+    },
+    {
+        "date": "2017-02-07",
+        "predicted_kWh": 22179.84,
+        "confidence_low": 20038.67,
+        "confidence_high": 24245.86
+    },
+    {
+        "date": "2017-02-08",
+        "predicted_kWh": 21411.13,
+        "confidence_low": 19241.57,
+        "confidence_high": 23476.99
+    },
+    {
+        "date": "2017-02-09",
+        "predicted_kWh": 20838.46,
+        "confidence_low": 18775.55,
+        "confidence_high": 22878.9
+    },
+    {
+        "date": "2017-02-10",
+        "predicted_kWh": 20324.38,
+        "confidence_low": 18244.28,
+        "confidence_high": 22555.56
+    },
+    {
+        "date": "2017-02-11",
+        "predicted_kWh": 19198.37,
+        "confidence_low": 17000.97,
+        "confidence_high": 21310.54
+    },
+    {
+        "date": "2017-02-12",
+        "predicted_kWh": 19478.19,
+        "confidence_low": 17346.26,
+        "confidence_high": 21547.55
+    },
+    {
+        "date": "2017-02-13",
+        "predicted_kWh": 21677.08,
+        "confidence_low": 19690.31,
+        "confidence_high": 23745.21
+    },
+    {
+        "date": "2017-02-14",
+        "predicted_kWh": 22396.87,
+        "confidence_low": 20250.16,
+        "confidence_high": 24674.21
+    },
+    {
+        "date": "2017-02-15",
+        "predicted_kWh": 23094.37,
+        "confidence_low": 20986.85,
+        "confidence_high": 25272.13
+    },
+    {
+        "date": "2017-02-16",
+        "predicted_kWh": 23979.21,
+        "confidence_low": 21830.05,
+        "confidence_high": 26152.78
+    },
+    {
+        "date": "2017-02-17",
+        "predicted_kWh": 24880.33,
+        "confidence_low": 22764.84,
+        "confidence_high": 27075.14
+    },
+    {
+        "date": "2017-02-18",
+        "predicted_kWh": 25094.0,
+        "confidence_low": 22935.02,
+        "confidence_high": 27165.06
+    },
+    {
+        "date": "2017-02-19",
+        "predicted_kWh": 26605.91,
+        "confidence_low": 24459.7,
+        "confidence_high": 28727.48
+    },
+    {
+        "date": "2017-02-20",
+        "predicted_kWh": 29899.11,
+        "confidence_low": 27929.54,
+        "confidence_high": 32059.64
+    },
+    {
+        "date": "2017-02-21",
+        "predicted_kWh": 31547.99,
+        "confidence_low": 29649.56,
+        "confidence_high": 33621.92
+    },
+    {
+        "date": "2017-02-22",
+        "predicted_kWh": 32985.24,
+        "confidence_low": 30837.21,
+        "confidence_high": 35105.2
+    },
+    {
+        "date": "2017-02-23",
+        "predicted_kWh": 34400.43,
+        "confidence_low": 32214.85,
+        "confidence_high": 36528.86
+    },
+    {
+        "date": "2017-02-24",
+        "predicted_kWh": 35607.02,
+        "confidence_low": 33514.2,
+        "confidence_high": 37699.39
+    },
+    {
+        "date": "2017-02-25",
+        "predicted_kWh": 35890.79,
+        "confidence_low": 33794.82,
+        "confidence_high": 37886.78
+    },
+    {
+        "date": "2017-02-26",
+        "predicted_kWh": 37232.32,
+        "confidence_low": 34963.11,
+        "confidence_high": 39383.51
+    },
+    {
+        "date": "2017-02-27",
+        "predicted_kWh": 40115.12,
+        "confidence_low": 37813.02,
+        "confidence_high": 42227.85
+    },
+    {
+        "date": "2017-02-28",
+        "predicted_kWh": 41119.67,
+        "confidence_low": 39037.29,
+        "confidence_high": 43268.04
+    },
+    {
+        "date": "2017-03-01",
+        "predicted_kWh": 41690.39,
+        "confidence_low": 39600.77,
+        "confidence_high": 43892.31
+    },
+    {
+        "date": "2017-03-02",
+        "predicted_kWh": 42033.92,
+        "confidence_low": 39940.18,
+        "confidence_high": 44199.44
+    },
+    {
+        "date": "2017-03-03",
+        "predicted_kWh": 41985.94,
+        "confidence_low": 39948.62,
+        "confidence_high": 44136.89
+    },
+    {
+        "date": "2017-03-04",
+        "predicted_kWh": 40859.04,
+        "confidence_low": 38581.74,
+        "confidence_high": 42953.43
+    },
+    {
+        "date": "2017-03-05",
+        "predicted_kWh": 40664.7,
+        "confidence_low": 38557.52,
+        "confidence_high": 42767.94
+    },
+    {
+        "date": "2017-03-06",
+        "predicted_kWh": 41920.73,
+        "confidence_low": 39582.67,
+        "confidence_high": 44009.73
+    },
+    {
+        "date": "2017-03-07",
+        "predicted_kWh": 41244.53,
+        "confidence_low": 39093.05,
+        "confidence_high": 43220.32
+    },
+    {
+        "date": "2017-03-08",
+        "predicted_kWh": 40119.22,
+        "confidence_low": 37950.98,
+        "confidence_high": 42213.09
+    },
+    {
+        "date": "2017-03-09",
+        "predicted_kWh": 38791.12,
+        "confidence_low": 36656.9,
+        "confidence_high": 40869.74
+    },
+    {
+        "date": "2017-03-10",
+        "predicted_kWh": 37135.48,
+        "confidence_low": 35012.34,
+        "confidence_high": 39226.19
+    },
+    {
+        "date": "2017-03-11",
+        "predicted_kWh": 34503.62,
+        "confidence_low": 32362.33,
+        "confidence_high": 36495.53
+    },
+    {
+        "date": "2017-03-12",
+        "predicted_kWh": 32943.83,
+        "confidence_low": 30938.27,
+        "confidence_high": 35000.66
+    },
+    {
+        "date": "2017-03-13",
+        "predicted_kWh": 33007.98,
+        "confidence_low": 30837.86,
+        "confidence_high": 35044.45
+    },
+    {
+        "date": "2017-03-14",
+        "predicted_kWh": 31343.97,
+        "confidence_low": 29357.26,
+        "confidence_high": 33416.7
+    },
+    {
+        "date": "2017-03-15",
+        "predicted_kWh": 29461.13,
+        "confidence_low": 27381.56,
+        "confidence_high": 31606.74
+    },
+    {
+        "date": "2017-03-16",
+        "predicted_kWh": 27626.93,
+        "confidence_low": 25540.48,
+        "confidence_high": 29817.6
+    },
+    {
+        "date": "2017-03-17",
+        "predicted_kWh": 25732.31,
+        "confidence_low": 23623.15,
+        "confidence_high": 27706.87
+    },
+    {
+        "date": "2017-03-18",
+        "predicted_kWh": 23138.29,
+        "confidence_low": 21010.08,
+        "confidence_high": 25090.22
+    },
+    {
+        "date": "2017-03-19",
+        "predicted_kWh": 21896.64,
+        "confidence_low": 19874.87,
+        "confidence_high": 23954.89
+    },
+    {
+        "date": "2017-03-20",
+        "predicted_kWh": 22556.36,
+        "confidence_low": 20338.05,
+        "confidence_high": 24664.94
+    },
+    {
+        "date": "2017-03-21",
+        "predicted_kWh": 21756.12,
+        "confidence_low": 19693.97,
+        "confidence_high": 23845.73
+    },
+    {
+        "date": "2017-03-22",
+        "predicted_kWh": 20989.8,
+        "confidence_low": 18907.74,
+        "confidence_high": 23164.66
+    },
+    {
+        "date": "2017-03-23",
+        "predicted_kWh": 20503.56,
+        "confidence_low": 18392.46,
+        "confidence_high": 22723.91
+    },
+    {
+        "date": "2017-03-24",
+        "predicted_kWh": 20161.61,
+        "confidence_low": 18033.4,
+        "confidence_high": 22292.2
+    },
+    {
+        "date": "2017-03-25",
+        "predicted_kWh": 19293.33,
+        "confidence_low": 17097.95,
+        "confidence_high": 21387.19
+    },
+    {
+        "date": "2017-03-26",
+        "predicted_kWh": 19914.73,
+        "confidence_low": 17881.07,
+        "confidence_high": 22087.22
+    },
+    {
+        "date": "2017-03-27",
+        "predicted_kWh": 22535.67,
+        "confidence_low": 20456.4,
+        "confidence_high": 24738.44
+    },
+    {
+        "date": "2017-03-28",
+        "predicted_kWh": 23753.17,
+        "confidence_low": 21573.3,
+        "confidence_high": 25846.7
+    },
+    {
+        "date": "2017-03-29",
+        "predicted_kWh": 25017.93,
+        "confidence_low": 22936.54,
+        "confidence_high": 27015.19
+    },
+    {
+        "date": "2017-03-30",
+        "predicted_kWh": 26532.34,
+        "confidence_low": 24396.68,
+        "confidence_high": 28692.72
+    },
+    {
+        "date": "2017-03-31",
+        "predicted_kWh": 28117.25,
+        "confidence_low": 25947.51,
+        "confidence_high": 30271.28
+    },
+    {
+        "date": "2017-04-01",
+        "predicted_kWh": 29060.12,
+        "confidence_low": 26874.74,
+        "confidence_high": 31169.2
+    },
+    {
+        "date": "2017-04-02",
+        "predicted_kWh": 31337.35,
+        "confidence_low": 29391.05,
+        "confidence_high": 33549.06
+    },
+    {
+        "date": "2017-04-03",
+        "predicted_kWh": 35422.47,
+        "confidence_low": 33282.57,
+        "confidence_high": 37666.46
+    },
+    {
+        "date": "2017-04-04",
+        "predicted_kWh": 37880.26,
+        "confidence_low": 35726.77,
+        "confidence_high": 39936.65
+    },
+    {
+        "date": "2017-04-05",
+        "predicted_kWh": 40133.98,
+        "confidence_low": 38040.8,
+        "confidence_high": 42156.17
+    },
+    {
+        "date": "2017-04-06",
+        "predicted_kWh": 42364.03,
+        "confidence_low": 40315.04,
+        "confidence_high": 44396.26
+    },
+    {
+        "date": "2017-04-07",
+        "predicted_kWh": 44375.19,
+        "confidence_low": 42254.29,
+        "confidence_high": 46581.64
+    },
+    {
+        "date": "2017-04-08",
+        "predicted_kWh": 45445.12,
+        "confidence_low": 43450.73,
+        "confidence_high": 47606.83
+    },
+    {
+        "date": "2017-04-09",
+        "predicted_kWh": 47546.94,
+        "confidence_low": 45591.77,
+        "confidence_high": 49743.89
+    },
+    {
+        "date": "2017-04-10",
+        "predicted_kWh": 51157.43,
+        "confidence_low": 49067.06,
+        "confidence_high": 53282.6
+    },
+    {
+        "date": "2017-04-11",
+        "predicted_kWh": 52851.08,
+        "confidence_low": 50637.78,
+        "confidence_high": 54984.5
+    },
+    {
+        "date": "2017-04-12",
+        "predicted_kWh": 54067.09,
+        "confidence_low": 51763.76,
+        "confidence_high": 56192.8
+    },
+    {
+        "date": "2017-04-13",
+        "predicted_kWh": 55007.64,
+        "confidence_low": 52837.54,
+        "confidence_high": 57217.87
+    },
+    {
+        "date": "2017-04-14",
+        "predicted_kWh": 55504.59,
+        "confidence_low": 53426.1,
+        "confidence_high": 57668.88
+    },
+    {
+        "date": "2017-04-15",
+        "predicted_kWh": 54867.4,
+        "confidence_low": 52671.71,
+        "confidence_high": 56943.66
+    },
+    {
+        "date": "2017-04-16",
+        "predicted_kWh": 55104.93,
+        "confidence_low": 52874.58,
+        "confidence_high": 57124.25
+    },
+    {
+        "date": "2017-04-17",
+        "predicted_kWh": 56732.82,
+        "confidence_low": 54628.71,
+        "confidence_high": 58755.34
+    },
+    {
+        "date": "2017-04-18",
+        "predicted_kWh": 56366.71,
+        "confidence_low": 54238.17,
+        "confidence_high": 58474.42
+    },
+    {
+        "date": "2017-04-19",
+        "predicted_kWh": 55488.21,
+        "confidence_low": 53369.17,
+        "confidence_high": 57705.68
+    },
+    {
+        "date": "2017-04-20",
+        "predicted_kWh": 54342.3,
+        "confidence_low": 52271.47,
+        "confidence_high": 56510.75
+    },
+    {
+        "date": "2017-04-21",
+        "predicted_kWh": 52803.06,
+        "confidence_low": 50573.49,
+        "confidence_high": 54806.3
+    },
+    {
+        "date": "2017-04-22",
+        "predicted_kWh": 50220.62,
+        "confidence_low": 48178.11,
+        "confidence_high": 52338.83
+    },
+    {
+        "date": "2017-04-23",
+        "predicted_kWh": 48642.13,
+        "confidence_low": 46524.35,
+        "confidence_high": 50806.55
+    },
+    {
+        "date": "2017-04-24",
+        "predicted_kWh": 48618.31,
+        "confidence_low": 46565.29,
+        "confidence_high": 50703.57
+    },
+    {
+        "date": "2017-04-25",
+        "predicted_kWh": 46795.89,
+        "confidence_low": 44736.17,
+        "confidence_high": 48917.89
+    },
+    {
+        "date": "2017-04-26",
+        "predicted_kWh": 44683.04,
+        "confidence_low": 42571.03,
+        "confidence_high": 46747.46
+    },
+    {
+        "date": "2017-04-27",
+        "predicted_kWh": 42546.15,
+        "confidence_low": 40451.29,
+        "confidence_high": 44614.5
+    },
+    {
+        "date": "2017-04-28",
+        "predicted_kWh": 40275.21,
+        "confidence_low": 38358.54,
+        "confidence_high": 42354.75
+    },
+    {
+        "date": "2017-04-29",
+        "predicted_kWh": 37230.55,
+        "confidence_low": 35084.54,
+        "confidence_high": 39269.39
+    },
+    {
+        "date": "2017-04-30",
+        "predicted_kWh": 35463.59,
+        "confidence_low": 33507.42,
+        "confidence_high": 37592.65
+    },
+    {
+        "date": "2017-05-01",
+        "predicted_kWh": 35523.44,
+        "confidence_low": 33277.74,
+        "confidence_high": 37563.69
+    },
+    {
+        "date": "2017-05-02",
+        "predicted_kWh": 34049.53,
+        "confidence_low": 32101.65,
+        "confidence_high": 36267.83
+    },
+    {
+        "date": "2017-05-03",
+        "predicted_kWh": 32537.23,
+        "confidence_low": 30430.97,
+        "confidence_high": 34667.25
+    },
+    {
+        "date": "2017-05-04",
+        "predicted_kWh": 31235.11,
+        "confidence_low": 29084.25,
+        "confidence_high": 33379.39
+    },
+    {
+        "date": "2017-05-05",
+        "predicted_kWh": 30010.8,
+        "confidence_low": 27998.33,
+        "confidence_high": 32107.45
+    },
+    {
+        "date": "2017-05-06",
+        "predicted_kWh": 28198.26,
+        "confidence_low": 25927.19,
+        "confidence_high": 30179.69
+    },
+    {
+        "date": "2017-05-07",
+        "predicted_kWh": 27819.32,
+        "confidence_low": 25753.95,
+        "confidence_high": 29823.87
+    },
+    {
+        "date": "2017-05-08",
+        "predicted_kWh": 29390.96,
+        "confidence_low": 27439.86,
+        "confidence_high": 31532.95
+    },
+    {
+        "date": "2017-05-09",
+        "predicted_kWh": 29518.7,
+        "confidence_low": 27362.92,
+        "confidence_high": 31611.31
+    },
+    {
+        "date": "2017-05-10",
+        "predicted_kWh": 29663.09,
+        "confidence_low": 27714.93,
+        "confidence_high": 31865.65
+    },
+    {
+        "date": "2017-05-11",
+        "predicted_kWh": 30037.72,
+        "confidence_low": 28013.28,
+        "confidence_high": 32122.67
+    },
+    {
+        "date": "2017-05-12",
+        "predicted_kWh": 30475.88,
+        "confidence_low": 28500.39,
+        "confidence_high": 32637.55
+    },
+    {
+        "date": "2017-05-13",
+        "predicted_kWh": 30278.61,
+        "confidence_low": 28081.27,
+        "confidence_high": 32444.86
+    },
+    {
+        "date": "2017-05-14",
+        "predicted_kWh": 31436.9,
+        "confidence_low": 29374.64,
+        "confidence_high": 33543.27
+    },
+    {
+        "date": "2017-05-15",
+        "predicted_kWh": 34439.67,
+        "confidence_low": 32369.55,
+        "confidence_high": 36511.81
+    },
+    {
+        "date": "2017-05-16",
+        "predicted_kWh": 35867.62,
+        "confidence_low": 33749.85,
+        "confidence_high": 37949.04
+    },
+    {
+        "date": "2017-05-17",
+        "predicted_kWh": 37160.25,
+        "confidence_low": 34970.18,
+        "confidence_high": 39279.74
+    },
+    {
+        "date": "2017-05-18",
+        "predicted_kWh": 38514.19,
+        "confidence_low": 36367.56,
+        "confidence_high": 40595.5
+    },
+    {
+        "date": "2017-05-19",
+        "predicted_kWh": 39750.12,
+        "confidence_low": 37634.19,
+        "confidence_high": 41875.35
+    },
+    {
+        "date": "2017-05-20",
+        "predicted_kWh": 40160.95,
+        "confidence_low": 38011.48,
+        "confidence_high": 42473.19
+    },
+    {
+        "date": "2017-05-21",
+        "predicted_kWh": 41734.07,
+        "confidence_low": 39726.39,
+        "confidence_high": 43877.19
+    },
+    {
+        "date": "2017-05-22",
+        "predicted_kWh": 44959.16,
+        "confidence_low": 42821.82,
+        "confidence_high": 47111.8
+    },
+    {
+        "date": "2017-05-23",
+        "predicted_kWh": 46421.99,
+        "confidence_low": 44113.02,
+        "confidence_high": 48423.06
+    },
+    {
+        "date": "2017-05-24",
+        "predicted_kWh": 47571.02,
+        "confidence_low": 45391.69,
+        "confidence_high": 49671.33
+    },
+    {
+        "date": "2017-05-25",
+        "predicted_kWh": 48615.47,
+        "confidence_low": 46638.98,
+        "confidence_high": 50564.12
+    },
+    {
+        "date": "2017-05-26",
+        "predicted_kWh": 49391.69,
+        "confidence_low": 47245.42,
+        "confidence_high": 51486.73
+    },
+    {
+        "date": "2017-05-27",
+        "predicted_kWh": 49210.95,
+        "confidence_low": 47127.39,
+        "confidence_high": 51304.17
+    },
+    {
+        "date": "2017-05-28",
+        "predicted_kWh": 50081.03,
+        "confidence_low": 47935.3,
+        "confidence_high": 52215.84
+    },
+    {
+        "date": "2017-05-29",
+        "predicted_kWh": 52513.54,
+        "confidence_low": 50384.43,
+        "confidence_high": 54660.87
+    },
+    {
+        "date": "2017-05-30",
+        "predicted_kWh": 53117.07,
+        "confidence_low": 51139.57,
+        "confidence_high": 55184.82
+    },
+    {
+        "date": "2017-05-31",
+        "predicted_kWh": 53363.21,
+        "confidence_low": 51129.99,
+        "confidence_high": 55485.48
+    },
+    {
+        "date": "2017-06-01",
+        "predicted_kWh": 53484.02,
+        "confidence_low": 51324.95,
+        "confidence_high": 55556.13
+    },
+    {
+        "date": "2017-06-02",
+        "predicted_kWh": 53337.93,
+        "confidence_low": 51276.43,
+        "confidence_high": 55393.48
+    },
+    {
+        "date": "2017-06-03",
+        "predicted_kWh": 52256.89,
+        "confidence_low": 50177.12,
+        "confidence_high": 54308.9
+    },
+    {
+        "date": "2017-06-04",
+        "predicted_kWh": 52267.65,
+        "confidence_low": 50125.65,
+        "confidence_high": 54384.0
+    },
+    {
+        "date": "2017-06-05",
+        "predicted_kWh": 53898.6,
+        "confidence_low": 51777.96,
+        "confidence_high": 56121.07
+    },
+    {
+        "date": "2017-06-06",
+        "predicted_kWh": 53772.62,
+        "confidence_low": 51574.02,
+        "confidence_high": 55895.36
+    },
+    {
+        "date": "2017-06-07",
+        "predicted_kWh": 53372.91,
+        "confidence_low": 51341.79,
+        "confidence_high": 55507.59
+    },
+    {
+        "date": "2017-06-08",
+        "predicted_kWh": 52940.24,
+        "confidence_low": 50867.27,
+        "confidence_high": 54966.54
+    },
+    {
+        "date": "2017-06-09",
+        "predicted_kWh": 52338.83,
+        "confidence_low": 50241.45,
+        "confidence_high": 54476.54
+    },
+    {
+        "date": "2017-06-10",
+        "predicted_kWh": 50903.49,
+        "confidence_low": 48806.68,
+        "confidence_high": 53027.63
+    },
+    {
+        "date": "2017-06-11",
+        "predicted_kWh": 50660.94,
+        "confidence_low": 48538.56,
+        "confidence_high": 52859.62
+    },
+    {
+        "date": "2017-06-12",
+        "predicted_kWh": 52136.88,
+        "confidence_low": 50057.47,
+        "confidence_high": 54232.27
+    },
+    {
+        "date": "2017-06-13",
+        "predicted_kWh": 51949.03,
+        "confidence_low": 49735.78,
+        "confidence_high": 54129.23
+    },
+    {
+        "date": "2017-06-14",
+        "predicted_kWh": 51573.22,
+        "confidence_low": 49350.63,
+        "confidence_high": 53682.1
+    },
+    {
+        "date": "2017-06-15",
+        "predicted_kWh": 51240.98,
+        "confidence_low": 49108.45,
+        "confidence_high": 53276.73
+    },
+    {
+        "date": "2017-06-16",
+        "predicted_kWh": 50805.78,
+        "confidence_low": 48666.45,
+        "confidence_high": 52882.9
+    },
+    {
+        "date": "2017-06-17",
+        "predicted_kWh": 49590.56,
+        "confidence_low": 47451.15,
+        "confidence_high": 51828.8
+    },
+    {
+        "date": "2017-06-18",
+        "predicted_kWh": 49609.47,
+        "confidence_low": 47480.48,
+        "confidence_high": 51614.32
+    },
+    {
+        "date": "2017-06-19",
+        "predicted_kWh": 51375.26,
+        "confidence_low": 49150.12,
+        "confidence_high": 53510.01
+    },
+    {
+        "date": "2017-06-20",
+        "predicted_kWh": 51492.8,
+        "confidence_low": 49359.63,
+        "confidence_high": 53653.25
+    },
+    {
+        "date": "2017-06-21",
+        "predicted_kWh": 51425.47,
+        "confidence_low": 49345.78,
+        "confidence_high": 53489.34
+    },
+    {
+        "date": "2017-06-22",
+        "predicted_kWh": 51393.16,
+        "confidence_low": 49090.16,
+        "confidence_high": 53445.18
+    },
+    {
+        "date": "2017-06-23",
+        "predicted_kWh": 51238.74,
+        "confidence_low": 49078.08,
+        "confidence_high": 53419.98
+    },
+    {
+        "date": "2017-06-24",
+        "predicted_kWh": 50275.88,
+        "confidence_low": 48077.22,
+        "confidence_high": 52315.01
+    },
+    {
+        "date": "2017-06-25",
+        "predicted_kWh": 50510.97,
+        "confidence_low": 48294.18,
+        "confidence_high": 52600.07
+    },
+    {
+        "date": "2017-06-26",
+        "predicted_kWh": 52450.71,
+        "confidence_low": 50264.63,
+        "confidence_high": 54524.29
+    },
+    {
+        "date": "2017-06-27",
+        "predicted_kWh": 52695.65,
+        "confidence_low": 50588.49,
+        "confidence_high": 54878.05
+    },
+    {
+        "date": "2017-06-28",
+        "predicted_kWh": 52706.7,
+        "confidence_low": 50577.82,
+        "confidence_high": 54597.6
+    },
+    {
+        "date": "2017-06-29",
+        "predicted_kWh": 52703.01,
+        "confidence_low": 50493.83,
+        "confidence_high": 54842.24
+    },
+    {
+        "date": "2017-06-30",
+        "predicted_kWh": 52528.45,
+        "confidence_low": 50411.33,
+        "confidence_high": 54741.37
+    },
+    {
+        "date": "2017-07-01",
+        "predicted_kWh": 51499.27,
+        "confidence_low": 49443.63,
+        "confidence_high": 53582.9
+    },
+    {
+        "date": "2017-07-02",
+        "predicted_kWh": 51625.88,
+        "confidence_low": 49534.19,
+        "confidence_high": 53900.24
+    },
+    {
+        "date": "2017-07-03",
+        "predicted_kWh": 53420.21,
+        "confidence_low": 51219.68,
+        "confidence_high": 55449.14
+    },
+    {
+        "date": "2017-07-04",
+        "predicted_kWh": 53489.03,
+        "confidence_low": 51511.9,
+        "confidence_high": 55661.41
+    },
+    {
+        "date": "2017-07-05",
+        "predicted_kWh": 53300.23,
+        "confidence_low": 51138.47,
+        "confidence_high": 55471.87
+    },
+    {
+        "date": "2017-07-06",
+        "predicted_kWh": 53080.43,
+        "confidence_low": 51010.29,
+        "confidence_high": 55179.5
+    },
+    {
+        "date": "2017-07-07",
+        "predicted_kWh": 52681.16,
+        "confidence_low": 50487.58,
+        "confidence_high": 54873.19
+    },
+    {
+        "date": "2017-07-08",
+        "predicted_kWh": 51426.34,
+        "confidence_low": 49321.25,
+        "confidence_high": 53609.98
+    },
+    {
+        "date": "2017-07-09",
+        "predicted_kWh": 51333.71,
+        "confidence_low": 49185.44,
+        "confidence_high": 53372.67
+    },
+    {
+        "date": "2017-07-10",
+        "predicted_kWh": 52922.05,
+        "confidence_low": 50780.61,
+        "confidence_high": 55074.03
+    },
+    {
+        "date": "2017-07-11",
+        "predicted_kWh": 52804.25,
+        "confidence_low": 50805.57,
+        "confidence_high": 54900.39
+    },
+    {
+        "date": "2017-07-12",
+        "predicted_kWh": 52453.42,
+        "confidence_low": 50155.68,
+        "confidence_high": 54547.76
+    },
+    {
+        "date": "2017-07-13",
+        "predicted_kWh": 52100.4,
+        "confidence_low": 50007.53,
+        "confidence_high": 54142.33
+    },
+    {
+        "date": "2017-07-14",
+        "predicted_kWh": 51599.83,
+        "confidence_low": 49596.05,
+        "confidence_high": 53831.1
+    },
+    {
+        "date": "2017-07-15",
+        "predicted_kWh": 50277.52,
+        "confidence_low": 48163.69,
+        "confidence_high": 52496.72
+    },
+    {
+        "date": "2017-07-16",
+        "predicted_kWh": 50151.94,
+        "confidence_low": 47979.59,
+        "confidence_high": 52140.33
+    },
+    {
+        "date": "2017-07-17",
+        "predicted_kWh": 51741.42,
+        "confidence_low": 49571.76,
+        "confidence_high": 53840.98
+    },
+    {
+        "date": "2017-07-18",
+        "predicted_kWh": 51657.32,
+        "confidence_low": 49526.85,
+        "confidence_high": 53789.49
+    },
+    {
+        "date": "2017-07-19",
+        "predicted_kWh": 51370.18,
+        "confidence_low": 49307.44,
+        "confidence_high": 53407.58
+    },
+    {
+        "date": "2017-07-20",
+        "predicted_kWh": 51107.4,
+        "confidence_low": 48988.63,
+        "confidence_high": 53074.4
+    },
+    {
+        "date": "2017-07-21",
+        "predicted_kWh": 50719.41,
+        "confidence_low": 48437.51,
+        "confidence_high": 52833.09
+    },
+    {
+        "date": "2017-07-22",
+        "predicted_kWh": 49527.28,
+        "confidence_low": 47413.61,
+        "confidence_high": 51642.3
+    },
+    {
+        "date": "2017-07-23",
+        "predicted_kWh": 49544.34,
+        "confidence_low": 47389.62,
+        "confidence_high": 51439.85
+    },
+    {
+        "date": "2017-07-24",
+        "predicted_kWh": 51283.59,
+        "confidence_low": 49407.06,
+        "confidence_high": 53605.1
+    },
+    {
+        "date": "2017-07-25",
+        "predicted_kWh": 51351.01,
+        "confidence_low": 49351.95,
+        "confidence_high": 53427.77
+    },
+    {
+        "date": "2017-07-26",
+        "predicted_kWh": 51211.99,
+        "confidence_low": 49033.22,
+        "confidence_high": 53303.43
+    },
+    {
+        "date": "2017-07-27",
+        "predicted_kWh": 51089.07,
+        "confidence_low": 49008.25,
+        "confidence_high": 53339.42
+    },
+    {
+        "date": "2017-07-28",
+        "predicted_kWh": 50828.37,
+        "confidence_low": 48706.28,
+        "confidence_high": 52821.78
+    },
+    {
+        "date": "2017-07-29",
+        "predicted_kWh": 49747.24,
+        "confidence_low": 47606.41,
+        "confidence_high": 51814.67
+    },
+    {
+        "date": "2017-07-30",
+        "predicted_kWh": 49856.05,
+        "confidence_low": 47672.59,
+        "confidence_high": 51952.96
+    },
+    {
+        "date": "2017-07-31",
+        "predicted_kWh": 51665.64,
+        "confidence_low": 49486.38,
+        "confidence_high": 53755.51
+    },
+    {
+        "date": "2017-08-01",
+        "predicted_kWh": 51780.72,
+        "confidence_low": 49708.12,
+        "confidence_high": 53929.21
+    },
+    {
+        "date": "2017-08-02",
+        "predicted_kWh": 51666.27,
+        "confidence_low": 49492.25,
+        "confidence_high": 53777.34
+    },
+    {
+        "date": "2017-08-03",
+        "predicted_kWh": 51545.33,
+        "confidence_low": 49375.96,
+        "confidence_high": 53683.76
+    },
+    {
+        "date": "2017-08-04",
+        "predicted_kWh": 51265.29,
+        "confidence_low": 49202.59,
+        "confidence_high": 53414.95
+    },
+    {
+        "date": "2017-08-05",
+        "predicted_kWh": 50145.59,
+        "confidence_low": 48022.15,
+        "confidence_high": 52296.82
+    },
+    {
+        "date": "2017-08-06",
+        "predicted_kWh": 50199.33,
+        "confidence_low": 48169.16,
+        "confidence_high": 52378.6
+    },
+    {
+        "date": "2017-08-07",
+        "predicted_kWh": 51940.64,
+        "confidence_low": 49961.33,
+        "confidence_high": 54052.49
+    },
+    {
+        "date": "2017-08-08",
+        "predicted_kWh": 51977.96,
+        "confidence_low": 49767.05,
+        "confidence_high": 54069.25
+    },
+    {
+        "date": "2017-08-09",
+        "predicted_kWh": 51780.24,
+        "confidence_low": 49683.32,
+        "confidence_high": 53774.34
+    },
+    {
+        "date": "2017-08-10",
+        "predicted_kWh": 51574.65,
+        "confidence_low": 49486.14,
+        "confidence_high": 53735.23
+    },
+    {
+        "date": "2017-08-11",
+        "predicted_kWh": 51212.72,
+        "confidence_low": 48953.64,
+        "confidence_high": 53266.17
+    },
+    {
+        "date": "2017-08-12",
+        "predicted_kWh": 50017.82,
+        "confidence_low": 47909.98,
+        "confidence_high": 52026.1
+    },
+    {
+        "date": "2017-08-13",
+        "predicted_kWh": 50006.7,
+        "confidence_low": 48013.86,
+        "confidence_high": 52102.38
+    },
+    {
+        "date": "2017-08-14",
+        "predicted_kWh": 51696.72,
+        "confidence_low": 49534.33,
+        "confidence_high": 53918.72
+    },
+    {
+        "date": "2017-08-15",
+        "predicted_kWh": 51698.98,
+        "confidence_low": 49453.65,
+        "confidence_high": 53923.72
+    },
+    {
+        "date": "2017-08-16",
+        "predicted_kWh": 51484.53,
+        "confidence_low": 49491.77,
+        "confidence_high": 53728.26
+    },
+    {
+        "date": "2017-08-17",
+        "predicted_kWh": 51281.9,
+        "confidence_low": 49334.59,
+        "confidence_high": 53525.43
+    },
+    {
+        "date": "2017-08-18",
+        "predicted_kWh": 50943.25,
+        "confidence_low": 48787.04,
+        "confidence_high": 52981.79
+    },
+    {
+        "date": "2017-08-19",
+        "predicted_kWh": 49791.87,
+        "confidence_low": 47721.75,
+        "confidence_high": 51855.25
+    },
+    {
+        "date": "2017-08-20",
+        "predicted_kWh": 49843.66,
+        "confidence_low": 47826.25,
+        "confidence_high": 52051.21
+    },
+    {
+        "date": "2017-08-21",
+        "predicted_kWh": 51614.43,
+        "confidence_low": 49452.58,
+        "confidence_high": 53835.25
+    },
+    {
+        "date": "2017-08-22",
+        "predicted_kWh": 51713.12,
+        "confidence_low": 49394.81,
+        "confidence_high": 53802.05
+    },
+    {
+        "date": "2017-08-23",
+        "predicted_kWh": 51608.01,
+        "confidence_low": 49595.18,
+        "confidence_high": 53668.28
+    },
+    {
+        "date": "2017-08-24",
+        "predicted_kWh": 51524.42,
+        "confidence_low": 49411.61,
+        "confidence_high": 53738.88
+    },
+    {
+        "date": "2017-08-25",
+        "predicted_kWh": 51310.94,
+        "confidence_low": 49283.58,
+        "confidence_high": 53635.78
+    },
+    {
+        "date": "2017-08-26",
+        "predicted_kWh": 50287.04,
+        "confidence_low": 48200.06,
+        "confidence_high": 52413.31
+    },
+    {
+        "date": "2017-08-27",
+        "predicted_kWh": 50464.7,
+        "confidence_low": 48196.03,
+        "confidence_high": 52705.3
+    },
+    {
+        "date": "2017-08-28",
+        "predicted_kWh": 52355.85,
+        "confidence_low": 50069.45,
+        "confidence_high": 54392.54
+    },
+    {
+        "date": "2017-08-29",
+        "predicted_kWh": 52565.68,
+        "confidence_low": 50447.34,
+        "confidence_high": 54766.19
+    },
+    {
+        "date": "2017-08-30",
+        "predicted_kWh": 52558.99,
+        "confidence_low": 50284.3,
+        "confidence_high": 54570.9
+    },
+    {
+        "date": "2017-08-31",
+        "predicted_kWh": 52558.02,
+        "confidence_low": 50482.46,
+        "confidence_high": 54678.07
+    },
+    {
+        "date": "2017-09-01",
+        "predicted_kWh": 52408.75,
+        "confidence_low": 50231.99,
+        "confidence_high": 54492.88
+    },
+    {
+        "date": "2017-09-02",
+        "predicted_kWh": 51428.59,
+        "confidence_low": 49322.71,
+        "confidence_high": 53474.1
+    },
+    {
+        "date": "2017-09-03",
+        "predicted_kWh": 51628.11,
+        "confidence_low": 49580.02,
+        "confidence_high": 53649.78
+    },
+    {
+        "date": "2017-09-04",
+        "predicted_kWh": 53518.47,
+        "confidence_low": 51352.03,
+        "confidence_high": 55562.3
+    },
+    {
+        "date": "2017-09-05",
+        "predicted_kWh": 53704.76,
+        "confidence_low": 51676.34,
+        "confidence_high": 55763.79
+    },
+    {
+        "date": "2017-09-06",
+        "predicted_kWh": 53652.38,
+        "confidence_low": 51594.2,
+        "confidence_high": 55690.01
+    },
+    {
+        "date": "2017-09-07",
+        "predicted_kWh": 53584.81,
+        "confidence_low": 51483.33,
+        "confidence_high": 55632.25
+    },
+    {
+        "date": "2017-09-08",
+        "predicted_kWh": 53349.86,
+        "confidence_low": 51321.31,
+        "confidence_high": 55469.52
+    },
+    {
+        "date": "2017-09-09",
+        "predicted_kWh": 52267.34,
+        "confidence_low": 50224.99,
+        "confidence_high": 54497.63
+    },
+    {
+        "date": "2017-09-10",
+        "predicted_kWh": 52350.63,
+        "confidence_low": 50226.03,
+        "confidence_high": 54422.59
+    },
+    {
+        "date": "2017-09-11",
+        "predicted_kWh": 54114.09,
+        "confidence_low": 51948.34,
+        "confidence_high": 56157.66
+    },
+    {
+        "date": "2017-09-12",
+        "predicted_kWh": 54166.27,
+        "confidence_low": 51971.88,
+        "confidence_high": 56371.67
+    },
+    {
+        "date": "2017-09-13",
+        "predicted_kWh": 53976.16,
+        "confidence_low": 51875.73,
+        "confidence_high": 55964.23
+    },
+    {
+        "date": "2017-09-14",
+        "predicted_kWh": 53770.85,
+        "confidence_low": 51653.41,
+        "confidence_high": 55900.27
+    },
+    {
+        "date": "2017-09-15",
+        "predicted_kWh": 53401.72,
+        "confidence_low": 51152.29,
+        "confidence_high": 55548.13
+    },
+    {
+        "date": "2017-09-16",
+        "predicted_kWh": 52191.89,
+        "confidence_low": 49935.65,
+        "confidence_high": 54233.12
+    },
+    {
+        "date": "2017-09-17",
+        "predicted_kWh": 52157.85,
+        "confidence_low": 50118.67,
+        "confidence_high": 54268.24
+    },
+    {
+        "date": "2017-09-18",
+        "predicted_kWh": 53816.62,
+        "confidence_low": 51585.35,
+        "confidence_high": 55851.7
+    },
+    {
+        "date": "2017-09-19",
+        "predicted_kWh": 53778.98,
+        "confidence_low": 51682.8,
+        "confidence_high": 56007.46
+    },
+    {
+        "date": "2017-09-20",
+        "predicted_kWh": 53515.66,
+        "confidence_low": 51475.65,
+        "confidence_high": 55563.23
+    },
+    {
+        "date": "2017-09-21",
+        "predicted_kWh": 53254.92,
+        "confidence_low": 51094.73,
+        "confidence_high": 55255.78
+    },
+    {
+        "date": "2017-09-22",
+        "predicted_kWh": 52848.75,
+        "confidence_low": 50631.12,
+        "confidence_high": 55022.19
+    },
+    {
+        "date": "2017-09-23",
+        "predicted_kWh": 51620.32,
+        "confidence_low": 49597.37,
+        "confidence_high": 53728.48
+    },
+    {
+        "date": "2017-09-24",
+        "predicted_kWh": 51585.59,
+        "confidence_low": 49473.26,
+        "confidence_high": 53626.97
+    },
+    {
+        "date": "2017-09-25",
+        "predicted_kWh": 53260.56,
+        "confidence_low": 51251.56,
+        "confidence_high": 55554.71
+    },
+    {
+        "date": "2017-09-26",
+        "predicted_kWh": 53254.51,
+        "confidence_low": 51142.71,
+        "confidence_high": 55300.66
+    },
+    {
+        "date": "2017-09-27",
+        "predicted_kWh": 53036.28,
+        "confidence_low": 50960.19,
+        "confidence_high": 55236.26
+    },
+    {
+        "date": "2017-09-28",
+        "predicted_kWh": 52831.92,
+        "confidence_low": 50636.05,
+        "confidence_high": 54923.77
+    },
+    {
+        "date": "2017-09-29",
+        "predicted_kWh": 52490.94,
+        "confidence_low": 50471.26,
+        "confidence_high": 54569.56
+    },
+    {
+        "date": "2017-09-30",
+        "predicted_kWh": 51333.95,
+        "confidence_low": 49094.68,
+        "confidence_high": 53489.38
+    },
+    {
+        "date": "2017-10-01",
+        "predicted_kWh": 51374.24,
+        "confidence_low": 49071.93,
+        "confidence_high": 53536.22
+    },
+    {
+        "date": "2017-10-02",
+        "predicted_kWh": 53125.2,
+        "confidence_low": 50984.81,
+        "confidence_high": 55245.34
+    },
+    {
+        "date": "2017-10-03",
+        "predicted_kWh": 53193.67,
+        "confidence_low": 51106.14,
+        "confidence_high": 55221.4
+    },
+    {
+        "date": "2017-10-04",
+        "predicted_kWh": 53046.2,
+        "confidence_low": 50865.08,
+        "confidence_high": 55210.69
+    },
+    {
+        "date": "2017-10-05",
+        "predicted_kWh": 52906.86,
+        "confidence_low": 50974.5,
+        "confidence_high": 54990.23
+    },
+    {
+        "date": "2017-10-06",
+        "predicted_kWh": 52623.55,
+        "confidence_low": 50461.82,
+        "confidence_high": 54769.3
+    },
+    {
+        "date": "2017-10-07",
+        "predicted_kWh": 51515.61,
+        "confidence_low": 49374.3,
+        "confidence_high": 53766.34
+    },
+    {
+        "date": "2017-10-08",
+        "predicted_kWh": 51595.5,
+        "confidence_low": 49463.46,
+        "confidence_high": 53706.59
+    },
+    {
+        "date": "2017-10-09",
+        "predicted_kWh": 53376.2,
+        "confidence_low": 51111.75,
+        "confidence_high": 55350.75
+    },
+    {
+        "date": "2017-10-10",
+        "predicted_kWh": 53464.56,
+        "confidence_low": 51307.64,
+        "confidence_high": 55543.26
+    },
+    {
+        "date": "2017-10-11",
+        "predicted_kWh": 53327.54,
+        "confidence_low": 51279.21,
+        "confidence_high": 55280.34
+    },
+    {
+        "date": "2017-10-12",
+        "predicted_kWh": 53190.0,
+        "confidence_low": 51016.8,
+        "confidence_high": 55319.03
+    },
+    {
+        "date": "2017-10-13",
+        "predicted_kWh": 52900.94,
+        "confidence_low": 50670.84,
+        "confidence_high": 54982.58
+    },
+    {
+        "date": "2017-10-14",
+        "predicted_kWh": 51781.03,
+        "confidence_low": 49778.41,
+        "confidence_high": 53983.32
+    },
+    {
+        "date": "2017-10-15",
+        "predicted_kWh": 51844.3,
+        "confidence_low": 49694.19,
+        "confidence_high": 54023.36
+    },
+    {
+        "date": "2017-10-16",
+        "predicted_kWh": 53605.4,
+        "confidence_low": 51361.22,
+        "confidence_high": 55638.15
+    },
+    {
+        "date": "2017-10-17",
+        "predicted_kWh": 53672.84,
+        "confidence_low": 51582.66,
+        "confidence_high": 55839.08
+    },
+    {
+        "date": "2017-10-18",
+        "predicted_kWh": 53515.27,
+        "confidence_low": 51498.25,
+        "confidence_high": 55733.7
+    },
+    {
+        "date": "2017-10-19",
+        "predicted_kWh": 53359.07,
+        "confidence_low": 51206.66,
+        "confidence_high": 55506.88
+    },
+    {
+        "date": "2017-10-20",
+        "predicted_kWh": 53054.61,
+        "confidence_low": 50981.57,
+        "confidence_high": 55265.24
+    },
+    {
+        "date": "2017-10-21",
+        "predicted_kWh": 51923.67,
+        "confidence_low": 49879.03,
+        "confidence_high": 53949.74
+    },
+    {
+        "date": "2017-10-22",
+        "predicted_kWh": 51981.09,
+        "confidence_low": 49844.37,
+        "confidence_high": 53991.9
+    },
+    {
+        "date": "2017-10-23",
+        "predicted_kWh": 53742.02,
+        "confidence_low": 51482.1,
+        "confidence_high": 55843.45
+    },
+    {
+        "date": "2017-10-24",
+        "predicted_kWh": 53815.12,
+        "confidence_low": 51630.61,
+        "confidence_high": 55916.41
+    },
+    {
+        "date": "2017-10-25",
+        "predicted_kWh": 53668.81,
+        "confidence_low": 51665.46,
+        "confidence_high": 55686.15
+    },
+    {
+        "date": "2017-10-26",
+        "predicted_kWh": 53528.92,
+        "confidence_low": 51420.76,
+        "confidence_high": 55549.9
+    },
+    {
+        "date": "2017-10-27",
+        "predicted_kWh": 53244.91,
+        "confidence_low": 51072.54,
+        "confidence_high": 55469.07
+    },
+    {
+        "date": "2017-10-28",
+        "predicted_kWh": 52137.41,
+        "confidence_low": 50116.51,
+        "confidence_high": 54153.19
+    },
+    {
+        "date": "2017-10-29",
+        "predicted_kWh": 52219.87,
+        "confidence_low": 50184.89,
+        "confidence_high": 54398.6
+    },
+    {
+        "date": "2017-10-30",
+        "predicted_kWh": 54005.85,
+        "confidence_low": 51835.59,
+        "confidence_high": 56095.09
+    },
+    {
+        "date": "2017-10-31",
+        "predicted_kWh": 54102.34,
+        "confidence_low": 51916.14,
+        "confidence_high": 56166.75
+    },
+    {
+        "date": "2017-11-01",
+        "predicted_kWh": 53976.09,
+        "confidence_low": 51921.62,
+        "confidence_high": 56208.23
+    },
+    {
+        "date": "2017-11-02",
+        "predicted_kWh": 53851.28,
+        "confidence_low": 51744.17,
+        "confidence_high": 55826.34
+    },
+    {
+        "date": "2017-11-03",
+        "predicted_kWh": 53575.88,
+        "confidence_low": 51547.2,
+        "confidence_high": 55748.02
+    },
+    {
+        "date": "2017-11-04",
+        "predicted_kWh": 52469.26,
+        "confidence_low": 50458.42,
+        "confidence_high": 54601.48
+    },
+    {
+        "date": "2017-11-05",
+        "predicted_kWh": 52543.83,
+        "confidence_low": 50423.21,
+        "confidence_high": 54750.42
+    },
+    {
+        "date": "2017-11-06",
+        "predicted_kWh": 54312.52,
+        "confidence_low": 52220.83,
+        "confidence_high": 56530.09
+    },
+    {
+        "date": "2017-11-07",
+        "predicted_kWh": 54382.03,
+        "confidence_low": 52067.06,
+        "confidence_high": 56442.73
+    },
+    {
+        "date": "2017-11-08",
+        "predicted_kWh": 54219.24,
+        "confidence_low": 52080.38,
+        "confidence_high": 56198.71
+    },
+    {
+        "date": "2017-11-09",
+        "predicted_kWh": 54048.91,
+        "confidence_low": 51953.26,
+        "confidence_high": 56058.12
+    },
+    {
+        "date": "2017-11-10",
+        "predicted_kWh": 53720.01,
+        "confidence_low": 51651.72,
+        "confidence_high": 55665.27
+    },
+    {
+        "date": "2017-11-11",
+        "predicted_kWh": 52553.31,
+        "confidence_low": 50365.07,
+        "confidence_high": 54580.05
+    },
+    {
+        "date": "2017-11-12",
+        "predicted_kWh": 52562.99,
+        "confidence_low": 50349.74,
+        "confidence_high": 54541.75
+    },
+    {
+        "date": "2017-11-13",
+        "predicted_kWh": 54264.05,
+        "confidence_low": 52165.14,
+        "confidence_high": 56295.58
+    },
+    {
+        "date": "2017-11-14",
+        "predicted_kWh": 54265.54,
+        "confidence_low": 52328.1,
+        "confidence_high": 56317.02
+    },
+    {
+        "date": "2017-11-15",
+        "predicted_kWh": 54036.81,
+        "confidence_low": 51915.14,
+        "confidence_high": 56196.24
+    },
+    {
+        "date": "2017-11-16",
+        "predicted_kWh": 53805.19,
+        "confidence_low": 51615.97,
+        "confidence_high": 55803.85
+    },
+    {
+        "date": "2017-11-17",
+        "predicted_kWh": 53422.15,
+        "confidence_low": 51333.86,
+        "confidence_high": 55387.2
+    },
+    {
+        "date": "2017-11-18",
+        "predicted_kWh": 52210.83,
+        "confidence_low": 50002.09,
+        "confidence_high": 54367.78
+    },
+    {
+        "date": "2017-11-19",
+        "predicted_kWh": 52187.55,
+        "confidence_low": 50077.06,
+        "confidence_high": 54379.76
+    },
+    {
+        "date": "2017-11-20",
+        "predicted_kWh": 53869.11,
+        "confidence_low": 51718.6,
+        "confidence_high": 55977.25
+    },
+    {
+        "date": "2017-11-21",
+        "predicted_kWh": 53865.91,
+        "confidence_low": 51601.61,
+        "confidence_high": 55877.44
+    },
+    {
+        "date": "2017-11-22",
+        "predicted_kWh": 53648.14,
+        "confidence_low": 51514.85,
+        "confidence_high": 55730.96
+    },
+    {
+        "date": "2017-11-23",
+        "predicted_kWh": 53443.4,
+        "confidence_low": 51400.2,
+        "confidence_high": 55593.26
+    },
+    {
+        "date": "2017-11-24",
+        "predicted_kWh": 53102.82,
+        "confidence_low": 51074.83,
+        "confidence_high": 55158.68
+    },
+    {
+        "date": "2017-11-25",
+        "predicted_kWh": 51948.54,
+        "confidence_low": 49814.77,
+        "confidence_high": 53976.73
+    },
+    {
+        "date": "2017-11-26",
+        "predicted_kWh": 51995.29,
+        "confidence_low": 49951.47,
+        "confidence_high": 54103.54
+    },
+    {
+        "date": "2017-11-27",
+        "predicted_kWh": 53757.59,
+        "confidence_low": 51636.76,
+        "confidence_high": 56009.74
+    },
+    {
+        "date": "2017-11-28",
+        "predicted_kWh": 53843.07,
+        "confidence_low": 51607.07,
+        "confidence_high": 55981.04
+    },
+    {
+        "date": "2017-11-29",
+        "predicted_kWh": 53718.62,
+        "confidence_low": 51609.52,
+        "confidence_high": 55731.9
+    },
+    {
+        "date": "2017-11-30",
+        "predicted_kWh": 53608.18,
+        "confidence_low": 51427.02,
+        "confidence_high": 55758.98
+    },
+    {
+        "date": "2017-12-01",
+        "predicted_kWh": 53358.93,
+        "confidence_low": 51233.54,
+        "confidence_high": 55455.86
+    },
+    {
+        "date": "2017-12-02",
+        "predicted_kWh": 52288.93,
+        "confidence_low": 50039.94,
+        "confidence_high": 54513.4
+    },
+    {
+        "date": "2017-12-03",
+        "predicted_kWh": 52408.82,
+        "confidence_low": 50157.2,
+        "confidence_high": 54583.56
+    },
+    {
+        "date": "2017-12-04",
+        "predicted_kWh": 54229.25,
+        "confidence_low": 52061.91,
+        "confidence_high": 56277.18
+    },
+    {
+        "date": "2017-12-05",
+        "predicted_kWh": 54354.25,
+        "confidence_low": 52243.14,
+        "confidence_high": 56571.12
+    },
+    {
+        "date": "2017-12-06",
+        "predicted_kWh": 54247.64,
+        "confidence_low": 52145.16,
+        "confidence_high": 56418.9
+    },
+    {
+        "date": "2017-12-07",
+        "predicted_kWh": 54130.91,
+        "confidence_low": 52038.07,
+        "confidence_high": 56223.68
+    },
+    {
+        "date": "2017-12-08",
+        "predicted_kWh": 53849.55,
+        "confidence_low": 51797.31,
+        "confidence_high": 55966.51
+    },
+    {
+        "date": "2017-12-09",
+        "predicted_kWh": 52720.88,
+        "confidence_low": 50724.97,
+        "confidence_high": 54960.22
+    },
+    {
+        "date": "2017-12-10",
+        "predicted_kWh": 52755.74,
+        "confidence_low": 50580.63,
+        "confidence_high": 54959.83
+    },
+    {
+        "date": "2017-12-11",
+        "predicted_kWh": 54466.07,
+        "confidence_low": 52443.08,
+        "confidence_high": 56751.82
+    },
+    {
+        "date": "2017-12-12",
+        "predicted_kWh": 54458.28,
+        "confidence_low": 52380.87,
+        "confidence_high": 56722.08
+    },
+    {
+        "date": "2017-12-13",
+        "predicted_kWh": 54199.67,
+        "confidence_low": 52140.08,
+        "confidence_high": 56375.52
+    },
+    {
+        "date": "2017-12-14",
+        "predicted_kWh": 53916.27,
+        "confidence_low": 51556.68,
+        "confidence_high": 56128.7
+    },
+    {
+        "date": "2017-12-15",
+        "predicted_kWh": 53459.12,
+        "confidence_low": 51433.88,
+        "confidence_high": 55749.54
+    },
+    {
+        "date": "2017-12-16",
+        "predicted_kWh": 52151.94,
+        "confidence_low": 49987.39,
+        "confidence_high": 54237.09
+    },
+    {
+        "date": "2017-12-17",
+        "predicted_kWh": 52012.72,
+        "confidence_low": 49810.94,
+        "confidence_high": 54140.01
+    },
+    {
+        "date": "2017-12-18",
+        "predicted_kWh": 53561.09,
+        "confidence_low": 51467.16,
+        "confidence_high": 55733.97
+    },
+    {
+        "date": "2017-12-19",
+        "predicted_kWh": 53411.52,
+        "confidence_low": 51300.42,
+        "confidence_high": 55681.7
+    },
+    {
+        "date": "2017-12-20",
+        "predicted_kWh": 53039.45,
+        "confidence_low": 50755.85,
+        "confidence_high": 55100.89
+    },
+    {
+        "date": "2017-12-21",
+        "predicted_kWh": 52678.91,
+        "confidence_low": 50370.95,
+        "confidence_high": 54523.35
+    },
+    {
+        "date": "2017-12-22",
+        "predicted_kWh": 52188.54,
+        "confidence_low": 50030.53,
+        "confidence_high": 54286.45
+    },
+    {
+        "date": "2017-12-23",
+        "predicted_kWh": 50898.97,
+        "confidence_low": 48853.62,
+        "confidence_high": 53059.23
+    },
+    {
+        "date": "2017-12-24",
+        "predicted_kWh": 50834.2,
+        "confidence_low": 48696.78,
+        "confidence_high": 52970.57
+    },
+    {
+        "date": "2017-12-25",
+        "predicted_kWh": 52518.62,
+        "confidence_low": 50237.14,
+        "confidence_high": 54588.93
+    },
+    {
+        "date": "2017-12-26",
+        "predicted_kWh": 52570.06,
+        "confidence_low": 50417.66,
+        "confidence_high": 54617.29
+    },
+    {
+        "date": "2017-12-27",
+        "predicted_kWh": 52465.72,
+        "confidence_low": 50385.41,
+        "confidence_high": 54531.87
+    },
+    {
+        "date": "2017-12-28",
+        "predicted_kWh": 52439.56,
+        "confidence_low": 50204.44,
+        "confidence_high": 54582.34
+    },
+    {
+        "date": "2017-12-29",
+        "predicted_kWh": 52348.27,
+        "confidence_low": 50198.07,
+        "confidence_high": 54512.21
+    },
+    {
+        "date": "2017-12-30",
+        "predicted_kWh": 51518.5,
+        "confidence_low": 49466.26,
+        "confidence_high": 53772.65
+    },
+    {
+        "date": "2017-12-31",
+        "predicted_kWh": 51968.28,
+        "confidence_low": 49841.4,
+        "confidence_high": 54014.94
+    }
+]
