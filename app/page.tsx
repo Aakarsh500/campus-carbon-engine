@@ -27,12 +27,12 @@ export default function CampusDashboard() {
   // Simulated Anomaly Alerts via Toast Notifications
   useEffect(() => {
     let timeoutIds: NodeJS.Timeout[] = [];
-    
+
     // Simulate an anomaly after 15 seconds
     const t1 = setTimeout(() => {
       setToasts(prev => [...prev, { id: 1, message: "⚠️ Anomaly Detected: HVAC load spike in PRP due to external heat gain." }]);
     }, 15000);
-    
+
     // Simulate a model update after 30 seconds
     const t2 = setTimeout(() => {
       setToasts(prev => [...prev, { id: 2, message: "🧠 Prophet Model Update: Confidence bounds widened by 4.2%." }]);
@@ -49,31 +49,31 @@ export default function CampusDashboard() {
 
   return (
     <div className={`relative w-full h-screen overflow-hidden font-sans text-slate-800 transition-colors duration-1000 ${isEcoMode ? 'bg-emerald-950' : 'bg-slate-900'}`}>
-      
+
       {/* NAVBAR */}
       <nav className={`absolute top-0 left-0 w-full z-20 backdrop-blur-md border-b px-6 py-4 flex justify-between items-center shadow-sm transition-colors duration-500 ${isEcoMode ? 'bg-emerald-900/80 border-emerald-500/50' : 'bg-white/80 border-white/20'}`}>
         <div className="flex items-center gap-3">
           <Leaf className={`w-6 h-6 ${isEcoMode ? 'text-emerald-400' : 'text-emerald-500'}`} />
           <h1 className={`text-xl font-bold tracking-wide ${isEcoMode ? 'text-white' : 'text-slate-800'}`}>Campus AI Carbon Engine</h1>
         </div>
-        
+
         {/* NEW LIVE ODOMETER */}
         <div className={`hidden md:flex items-center gap-3 px-5 py-1.5 rounded-full border shadow-inner ${isEcoMode ? 'bg-emerald-800/80 border-emerald-500 text-emerald-100' : 'bg-slate-100 border-slate-300 text-slate-700'}`}>
-           <span className="text-xs font-black uppercase tracking-widest flex items-center gap-1"><ArrowUpRight className="w-3 h-3"/> Live Offset</span>
-           <span className="font-mono font-bold text-lg tabular-nums">{liveOdometer.toLocaleString()} <span className="text-xs">kg</span></span>
+          <span className="text-xs font-black uppercase tracking-widest flex items-center gap-1"><ArrowUpRight className="w-3 h-3" /> Live Offset</span>
+          <span className="font-mono font-bold text-lg tabular-nums">{liveOdometer.toLocaleString()} <span className="text-xs">kg</span></span>
         </div>
 
         <div className="flex items-center gap-4">
-          <button 
+          <button
             onClick={() => setIsEcoMode(!isEcoMode)}
             className={`flex items-center gap-2 px-4 py-2 font-bold rounded-full border shadow-sm transition-all duration-300 ${isEcoMode ? 'bg-red-500 text-white border-red-400 hover:bg-red-600 animate-pulse' : 'bg-emerald-100 text-emerald-700 border-emerald-200 hover:bg-emerald-200'}`}
           >
             <Power className="w-4 h-4" />
             {isEcoMode ? 'DISABLE ECO-MODE' : 'ENGAGE ECO-MODE'}
           </button>
-          
+
           <div className={`text-sm font-bold px-4 py-2 rounded-full border shadow-inner ${isEcoMode ? 'bg-emerald-800 text-emerald-100 border-emerald-700' : 'text-slate-600 bg-slate-100 border-slate-200'}`}>
-            Admin: Aakarsh | 23BCE0341
+            Admin
           </div>
         </div>
       </nav>
